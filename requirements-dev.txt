@@ -1,0 +1,6 @@
+ipython
+tox
+black
+reorder-python-imports
+pyupgrade
+mypy
