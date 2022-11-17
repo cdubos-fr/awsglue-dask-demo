@@ -1,0 +1,6 @@
+name: demo-glue-dask-iasc
+description: pulumi Infrastructure as Code that deploy aws component
+runtime:
+    name: python
+    options:
+        virtualenv: ../.venv

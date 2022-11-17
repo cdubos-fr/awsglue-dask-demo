@@ -1,8 +1,8 @@
 dask[dataframe]
 distributed
-dask-yarn
 boto3
 sqlalchemy
 psycopg2-binary
 pydantic
 pydantic-factories
+click

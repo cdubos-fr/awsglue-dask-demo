@@ -1,0 +1,10 @@
+config:
+  demo-glue-dask-iasc:base_name: demo-glue-dask
+  demo-glue-dask-iasc:boostrap_action_path: boostrap_action/dask
+  demo-glue-dask-iasc:boostrap_action_script: boostrap_dask.sh
+  demo-glue-dask-iasc:db_name: postgres
+  demo-glue-dask-iasc:db_pwd:
+    secure: AAABADtB3QMDLJ8zIw2nw0pbxwIzE2PCytR4dr6ldePiZ9+k2uIlo+ehMwCXSQ==
+  demo-glue-dask-iasc:db_user:
+    secure: AAABAMP6AdTdhgnlp2i35i5Dx0EUlQ70KK2Cvfss1iKSptlSX6O9s9OWqln8Cw==
+  demo-glue-dask-iasc:glue_job_path: ../glue-script/main.py

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "demo_models"
+authors = [{name=  "C. Dubos"}]
+dynamic = ["version", "description"]
+requires-python = ">=3.9"
+dependencies = [
+    "sqlalchemy",
+    "pydantic",
+    "pydantic-factories",
+    "psycopg2-binary",
+    "click",
+]
+
+[project.optional-dependencies]
+migration = [
+    "alembic",
+]
+
+[project.scripts]
+generate-models = "demo_models:generation.generate"
