@@ -130,3 +130,10 @@ dmypy.json
 
 
 data/
+
+# Latex
+*.aux
+*.out
+*.nav
+*.snm
+*.toc
